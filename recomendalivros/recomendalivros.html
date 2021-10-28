@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomenda Livros</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+    <h1>Recomendador de Livros</h1>
+    </header>
+    <section>
+        <div>
+            <p>qual é o genero literário que você deseja ler ?</p>
+            <input type="radio" name="radgen" id="fant" checked><!--checked serve pra já marcar aquelá opção-->
+            <label for="fant">Fantasia</label>
+            <input type="radio" name="radgen" id="fici">
+            <label for="fici">Ficção cientifica</label>
+
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
+        </div>
+
+        <div id="conf">
+            Prencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy;RecomendaLivros</p>
+    </footer>
+    <script src="scriptlivro.js"></script>
+    
+</body>
+</html>
